@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-# Autohor Jarmo Isotalo
+# Author Jarmo Isotalo
 # jarmo.isotalo@cs.helsinki.fi
 
 if !ARGV[0] ||  ['-h', '--help'].include?(ARGV[0])
