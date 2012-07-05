@@ -1,5 +1,13 @@
+#!/usr/bin/env ruby
+
+# Autohor Jarmo Isotalo
+# jarmo.isotalo@cs.helsinki.fi
+
 if !ARGV[0] ||  ['-h', '--help'].include?(ARGV[0])
-       puts "no arguments"
+  puts
+  puts "#{__FILE__} -i || -inc to increase screen brightness"
+  puts "#{__FILE__} -d || -dec to decrease screen brightness"
+  puts "no arguments"
 end
 @path = "/sys/devices/pci0000:00/0000:00:02.0/drm/card0/card0-LVDS-1/intel_backlight/brightness"
 @change_value = 1000
